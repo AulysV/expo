@@ -1,0 +1,422 @@
+<!--  
+          ██████╗  ██████╗ ███╗   ██╗     ██╗ ██████╗ ██╗   ██╗██████╗ 
+          ██╔══██╗██╔═══██╗████╗  ██║     ██║██╔═══██╗██║   ██║██╔══██╗
+          ██████╔╝██║   ██║██╔██╗ ██║     ██║██║   ██║██║   ██║██████╔╝
+          ██╔══██╗██║   ██║██║╚██╗██║██   ██║██║   ██║██║   ██║██╔══██╗
+          ██████╔╝╚██████╔╝██║ ╚████║╚█████╔╝╚██████╔╝╚██████╔╝██║  ██║
+          ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝ ╚════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+                                                             
+  Visual Studio Code, Andromeda Italic / Bear / Mars
+  Fira Code
+
+  Principales Modifications :
+  • 5 - 7 Nov 2020 : ............... head + Titre, Présentation, Contexte Historique
+  • 10 Nov : ....................... Présentation
+  • 12 Nov : ....................... JS
+  • 15 Nov : ....................... Mise en page générale + CSS
+  • 17 Nov : ....................... Recherches (Arlequin)
+  • 20 Nov : ....................... L'oiseau vert (début)
+  • 29 Nov : ....................... Correction JS + autres bugs + L'oiseau vert (suite)
+
+
+
+  Consignes :
+
+  Objectifs :
+  - faire des recherches documentaires sur une période littéraire de l’histoire du théâtre ;
+  - présenter son exposé à l’oral ;
+  - prendre des notes en vue d’une évaluation sur l’histoire du théâtre :
+  - créer un site internet pour présenter ses recherches (SNT).
+
+  L’exposé devra durer 5 minutes maximum et sera composé de 4 parties:
+  
+  1- le contexte historique
+  2- les caractéristiques du mouvement théâtral étudié
+  3- les auteurs et les œuvres qui appartiennent à ce mouvement
+  4- zoom sur une des œuvres : résumé, personnage, caractéristiques...
+
+-->
+<!DOCTYPE html>
+
+<head>
+  <!--Rien à changer-->
+  <meta http-equiv="content-type" content="text/html" ; charset=" utf-8">
+
+  <!--Liens vers JavaScript-->
+  <script src="js/1.js"></script>
+  <script src="js/2.js"></script>
+  <script src="js/3.js"></script>
+  <script src="js/4.js"></script>
+
+
+  <!--Titre Onglet-->
+  <title>La commedia dell'arte</title>
+  <meta charset="utf-8">
+  <!--Encodage-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+
+  <!--lien css-->
+  <link href="css/css1.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header">
+    <!--Barre de Naviguation en haut-->
+    <nav id="nav">
+      <ul>
+        <li><a href="#intro">Titre</a></li>
+        <li><a href="#contexte">Contexte Historique</a></li>
+        <li><a href="#pres">Présentation</a></li>
+        <li><a href="#commediens">Œuvres</span></a></li>
+        <!-- <li><a href="#arlequin">Arlequin</span></a></li> -->
+        <li><a href="#piece">L'Oiseau vert</a></li>
+        <!--Attention Arlequin poli par l'amour est une pièce de Marivaux-->
+        <li><a href="#Éléments">Éléments</span></a></li>
+        <li><a href="#oral">Texte</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!--La Commedia Dell'Arte-->
+  <div id="main">
+    <!--Titre-->
+    <div class="reel" style="width: 600vw;">
+      <article id="intro" class="slide style1 center" data-index="0"
+        style="background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(&quot;images/pic01.png&quot;); background-size: auto, cover; background-position: 0% 0%, 100% 50%; background-repeat: repeat, no-repeat; background-attachment: fixed, fixed;">
+        <img src="images/pic01.png" alt="" data-position="30% 50%" style="display: none;" wfd-invisible="true">
+
+        <div class="inner">
+          <header>
+            <h1>La Commedia dell'arte</h1>
+          </header>
+          </ul>
+        </div>
+      </article>
+
+<!--Contexte Historique-->
+      <article id="contexte" class="slide style2 left" data-index="2"
+        style="background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(&quot;images/pic02.jpg&quot;); background-size: auto, cover; background-position: 0% 0%, -100% 50%; background-repeat: repeat, no-repeat; background-attachment: fixed, fixed;">
+        <img src="images/pic02.jpg" alt="" data-position="center" style="display: none;" wfd-invisible="true">
+
+        <div class="inner">
+          <h2>
+            Contexte Historique
+          </h2>
+          <ul>
+            <li>Dévut de la Rennaissance</li>
+            <li>Période des Grandes Découvertes</li>
+            <li>Invention de calendrier Grégorien en 1584</li>
+            <li>France : règne de François I<sup>er</sup>(Règne : 1515 - 1547)</li>
+            <li>France : règne de Henri II (Règne :1547 - 1559)</li>
+            <li>Edit de Nantes en 1598 → Fin des Guerres Religieuses</li>
+          </ul>
+            <a href="gd.html" class="button small">Grandes découvertes.html</a>
+      </article>
+
+
+      <!--Présentation-->
+      <article id="pres" class="slide style2 left active" data-index="1"
+        style="background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(&quot;images/pres.jpg&quot;); background-size: auto, cover; background-position: 0% 0%, 0% 50%; background-repeat: repeat, no-repeat; background-attachment: fixed, fixed;">
+        <img src="images/pres.jpg" alt="" data-position="center" style="display: none;" wfd-invisible="true">
+
+        <div class="inner">
+          <h2>Présentation :</h2>
+          <ul>
+            <li>XVE<sup>e</sup> siècle</li>
+            <li>Improvisation</li>
+            <li>Serait née de farces</li>
+            <li>Masques exagérant proportions du visage</li>
+            <li>Jeu exagéré</li>
+            <li>Absurde = Amusant</li>
+
+          </ul>
+        </div>
+      </article>     
+
+
+      <!--Commediens-->
+      <article id="commediens" class="slide style1 with-content left" data-index="3" pic04
+        style="background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(&quot;images/troupe.jpg&quot;); background-size: auto, cover; background-position: 0% 0%, -200% 50%; background-repeat: repeat, no-repeat; background-attachment: fixed, fixed;">
+        <img src="images/troupe.jpg" alt="" data-position="center" style="display: none;" wfd-invisible="true">
+        <div class="inner">
+          <h2>Comédiens et Œuvres</h2>
+          <p>
+            La Commedia Dell'Arte se joue vers la fin du XVI<sup>ème</sup> siècle et est un style de théâtre « Nomade ».
+            Ainsi, le nombre de comédiens connus n'est pas très grand. Voici quelques comediens connus :
+          </p>  
+          
+          <p>
+            <box>
+          <ul>
+          <li><u>Isabella Andreini</u></li>
+                  o	Elle joue souvent le rôle d’amoureuse<br>
+                  o	C’est la femme de Francesco Andreini et la mère de Giambattista Andreini<br>
+                  o	Elle est née en 1562 à Padoue et morte à Lyon le 11 juin 1604<br>
+          <br>
+          <li><u>Francesco Andreini</u></li>
+                  o	Il est né vers 1548 et mort en 1624<br>
+                  o	Il faut partie comme sa femme de la troupe I Gelosi.<br>
+                  o	Il a publié Le Bravure del Capitan en 1607.<br>
+          <br>
+          <li><u>Giambattista Andreini</u></li>
+                  o	C’est un comédien favori de Louis XIII<br>
+                  o	Il est né à Florence le 9 février 1576 et mort le 7 juin 1654<br>
+                  o	Il a du succès en France sous le nom de Leylio<br>
+          <br> 
+            </ul>
+
+
+          </p>
+          </box>
+
+        </div>
+      </article>
+
+
+      <!--Arlequin-->
+      <!-- <article id="arlequin" class="slide style1 with-content left" data-index="3">
+        <img src="images/arlequin.png" alt="" data-position="center" style="display: none;" wfd-invisible="true">
+
+        <div class="inner">
+          <h2>Arlequin</h2>
+          <p>
+
+            Arlequin est un personnage de la Commedia Dell'Arte. C'est un serviteur originairement pauvre qui fait son
+            apparition en France sous le nom de « Hellequin ».
+            Il représente un personnage idiot, parresseux, toujours en quête de nourriture, et comique.
+            Il est l'amoureux de Colombine, donc le rival de Pierrot.
+            <br>
+            Arlequin est souvent représenté avec Pierrot. Pierrot, celui qui apparaît dans la chanson « Au clair de la
+            lune », est un serviteur comme Arlequin. Il est repréenté triste, naïf, et rêveur. Il est amoureux
+            de Colombine, mais celle-ci aime Arlequin.
+            <br>
+            Sur l'image d'arrière plan, nous pouvons voir Colombine, avec Arlequin et Pierrot, triste, qui joue du
+            violon derrière.
+
+
+
+          </p>
+        </div>
+      </article> -->
+
+
+      <!--Pièce-->
+      <article id="piece" class="slide style1 with-content left" data-index="3">
+        <img src="images/oiseau.jpg" alt="" data-position="center" style="display: none;" wfd-invisible="true">
+
+        <div class="inner">
+          <h2>L'Oiseau vert</h2>
+          <p>
+            <ul>
+              <li>De Carlo Gozzi</li>
+              <li>Parue en 1765</li>
+              <p><u>Personnages principaux :</u></p>
+              <li>Père : Tartaglia, roi de Monterotondo</li>
+              <li>Ninette : femme de Tartaglia et mère de jumaux</li>
+              <li>Jumaux : une fille et un garçon</li>
+              <li>L'oiseau vert</li>
+              <li>Mère de Tartaglia</li>
+            </ul>
+          </p>
+        </div>
+      </article>
+
+
+
+
+      <!--
+
+
+        # # # # # # # # # # # # # # # #
+        #   Pas dans la présentation  #
+        #      Utilisé lors de la     #
+        #   création du code source   #
+        # # # # # # # # # # # # # # # #       
+      
+      -->
+
+
+ 
+      <!--Élements HTML-->
+      <article id="Éléments" class="slide style1 with-content center" data-index="5"
+        style="background-image: linear-gradient(to top, rgba(43, 43, 43, 0.5), rgba(43, 43, 43, 0.5)), url(&quot;images/pic04.jpg&quot;); background-size: auto, cover; background-position: 0% 0%, -400% 50%; background-repeat: repeat, no-repeat; background-attachment: fixed, fixed;">
+        <img src="images/pic04.jpg" alt="" data-position="center" style="display: none;" wfd-invisible="true">
+        <div class="inner">
+          <h2>Éléments</h2>
+          <div class="content align-left">
+            <section>
+              <h4>Texte</h4>
+              <p><b> Bold </b><strong> Strong </strong><i> Italic </i><em> Emphasized </em><sup> Superscript
+                </sup><sub>
+                  Subscript </sub><u> Underlined </u><code> Code </code><a href="#">Lien</a></p>
+              <hr>
+              <h2>Heading 2</h2>
+              <h3>Heading 3</h3>
+              <h4>Heading 4</h4>
+              <h5>Heading 5</h5>
+              <h6>Heading 6</h6>
+              <hr>
+              <!--Barre-->
+              <h5>Blockquote</h5>
+              <blockquote>
+                Virtutem primam esse puta comperscere linguam <br>
+                Sache que la première vertu est de retenir sa langue <Br>
+              </blockquote>
+              Molière, <u>La jalousie du barbouillé</u>
+              <hr>
+
+              <h5>Preformatted</h5>
+              <pre><code class="python">
+                print("hello world")
+              </code></pre>
+            </section>
+            <section>
+              <h4>Listes</h4>
+              <div class="row">
+                <div class="6u 12u$(medium)">
+                  <h5>Liste à puces</h5>
+                  <ul>
+                    <li>Puce 1</li>
+                    <li>Puce 2</li>
+                    <li>Puce 3</li>
+                  </ul>
+                  <h5>Alternative</h5>
+                  <ul class="alt">
+                    <li>Puce 1</li>
+                    <li>Puce 2</li>
+                    <li>Puce 3</li>
+                  </ul>
+                </div>
+                <div class="6u$ 12u(medium)">
+                  <h5>Ordered</h5>
+                  <ol>
+                    <li>Puce 1</li>
+                    <li>Puce 2</li>
+                    <li>Puce 3</li>
+                    <li>Puce 4</li>
+                    <li>Puce 5</li>
+                    <li>Puce 6</li>
+                  </ol>
+
+                </div>
+              </div>
+
+              <h5>Tableau</h5>
+              <div class="table-wrapper">
+                <table class="alt">
+                  <thead>
+                    <tr>
+                      <th>Truc</th>
+                      <th>Chouette</th>
+                      <th>Bidule</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>TrucMuche 1</td>
+                      <td>Ante turpis integer aliquet porttitor.</td>
+                      <td>Bla</td>
+                    </tr>
+                    <tr>
+                      <td>TrucMuche 2</td>
+                      <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                      <td>Bli</td>
+                    </tr>
+                    <tr>
+                      <td>TrucMuche 3</td>
+                      <td> Morbi faucibus arcu accumsan lorem.</td>
+                      <td>Blou</td>
+                    </tr>
+                    <tr>
+                      <td>TrucMuche 4</td>
+                      <td>Vitae integer tempus condimentum.</td>
+                      <td>Blère</td>
+                    </tr>
+                    <tr>
+                      <td>TrucMuche 5</td>
+                      <td>Ante turpis integer aliquet porttitor.</td>
+                      <td>Blouche</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td colspan="2"></td>
+                      <td>100.00</td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </section>
+            <section>
+              <h4>Bouttons</h4>
+              <ul class="actions">
+                <li><a href="#" class="button primary">Primary</a></li>
+                <li><a href="#" class="button">Default</a></li>
+              </ul>
+              <ul class="actions">
+                <li><a href="#" class="button">Default</a></li>
+                <li><a href="#" class="button small">Small</a></li>
+              </ul>
+              <ul class="actions fit">
+                <li><a href="#" class="button primary fit">Fit</a></li>
+                <li><a href="#" class="button fit">Fit</a></li>
+              </ul>
+              <ul class="actions fit small">
+                <li><a href="#" class="button primary fit small">Fit + Small</a></li>
+                <li><a href="#" class="button fit small">Fit + Small</a></li>
+              </ul>
+              <ul class="actions">
+                <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+                <li><a href="#" class="button icon solid fa-download">Icon</a></li>
+              </ul>
+              <ul class="actions">
+                <li><span class="button primary disabled">Disabled</span></li>
+                <li><span class="button disabled">Disabled</span></li>
+              </ul>
+          </div>
+        </div>
+      </article>
+    </div>
+    <nav><span class="previous"></span><span class="next"></span></nav>
+  </div>
+
+<!--
+  Intro :
+La commedia dell’arte est un genre théâtral apparu vers 1550. Il est principalement basé sur des improvisations et des farces grossières.
+Contexte historique : 
+C’est la période de la renaissance. Des textes du moyen-âge ou de l’Antiquité sont (re)découverts. Des grandes découvertes sont faites ; les grandes découvertes désignent les explorations faites par les navigateurs européens (je parle des explorateurs, pas des navigateurs Web). Pendent cette période, le calendrier Julien, mis en place par l’Empereur César est remplacé par le calendrier Grégorien à la suite de problèmes de datations. En France, François Ier est Roi, de 1515 à 1547 et se voit remplacé par Henri II qui règnera jusqu’en 1559.  
+
+Caractéristiques :
+ La Commedia dell’arte se répand au 17ème siècle en France, où sont inventés progressivement les personnages Arlequin et Pierrot. Tous les comédiens de la commedia dell’arte portent des masques pour les obliger à mimer et à exprimer grossièrement leurs expressions. Les amoureux font exception et n’en portent pas. Les amoureux sont des personnages plus sérieux, comme Arlequin ou Colombine et ce sont en général les personnages principaux. Plus la pièce est absurde ou grossière, plus elle est amusante. Plusieurs personnages reviennent souvent dans la plupart des pièces : 
+•	Arlequin et Pierrot (les serviteurs), 
+•	Colombine, 
+•	Pantalon (le bouffon qui porte un bas long), 
+•	Brighella (Valet), 
+•	Pulcinella (polichinelle le bouffon), etc…  
+La commedia dell’arte a inspiré les comédies de Molière ou de Marivaux.
+
+Plusieurs auteurs et comédiens sont connus :
+•	Isabella Andreini, souvent dans le rôle d’amoureuse, est née en 1562 à Padoue et morte à Lyon le 11 juin 1604. C’est une poétesse reconnue en Italie. Elle est la femme de Francesco Andreini et la mère de Giambattista Andreini
+•	Son mari est né vers 1548 et mort en 1624. Il faut partie comme sa femme de la troupe italienne I Gelosi. Il a publié la pièce qui rencontre un grand succès en Italie, Le Bravure del Capitan en 1607.
+•	Giambattista Andreini, leur fils est né à Florence le 9 février 1576 et mort le 7 juin 1654. C’est un comédien favori de Louis XIII qui règnera de 1610 à 1643. Il est connu en France sous le nom de Leylio.
+•	Carlo Gozzi est un dramaturge italien qui pourra fêter ses 300 ans dans 9 jours et qui mort le 4 avril. Il a écrit une des rares pièces de la vraie commedia dell’arte encore représentée aujourd’hui, l’oiseau vert que nous allons vous présenter dans la partie suivante. En effet, le genre théâtral étant joué par des comédiens en déplacement et résultant d’improvisations, rares sont les traces écrites.
+
+L’oiseau vert :
+L’Oiseau vert est une pièce de Carlo Gozzi parue en 1765. On retrouve les personnages Brighella, conseiller poète, astrologue au service de la reine-mère et Pantalon, premier ministre du roi.
+Tartaglia, le roi de Monterotondo, revient de guerre après 18 ans. Pendant son absence, la reine Ninette, sa femme, accusée d'infidélité par la mère Tartagliona, a été enterrée vivante sous l'évier de la cuisine du palais. Depuis dix-huit ans elle y survit dans le plus grand secret, grâce aux soins d'un mystérieux Oiseau Vert. Ses jumeaux, que Pantalon, premier ministre du roi, était chargé de supprimer, ont été recueillis nourrissons par un couple de charcutiers, Truffaldino et Sméraldine. Ignorant leur origine, les deux enfants ont grandi dans la pauvreté et ont étudié dans les livres la philosophie.
+La pièce commence le jour du retour du roi Tartaglia à Monterotondo. Ce même jour, les jumeaux découvrent qu’ils sont illégitimes.
+Ils partent donc en quête de leur véritable identité. Ce voyage initiatique fera d’eux brutalement des personnes riches et mettra à l’épreuve leur philosophie. À l’issue du voyage, après de multiples épreuves, métamorphoses et sortilèges, l’Oiseau Vert, recouvrera sa forme humaine. Par ses révélations, il dénouera toutes les intrigues et rendra à tous justice.
+FIN
+-->
+
+
+  <script src="js/Aulys-animations.js"></script>
+
+
+
+</body>
+
+</html>
