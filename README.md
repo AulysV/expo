@@ -1,4 +1,4 @@
-Expo réalisé rapidement pour le lycée (j'ai utilisé un template bien sûr). 
+Expo réalisé rapidement pour le lycée. 
 
 Page : https://aulysv.github.io/expo/#
 
